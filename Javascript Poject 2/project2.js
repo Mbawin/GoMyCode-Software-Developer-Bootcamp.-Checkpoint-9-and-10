@@ -1,6 +1,6 @@
 // a function that reverses a string
 function reverseString(str) {
-    return str.reverse()
+    return str.split('').reverse().join('');
 }
 
 
